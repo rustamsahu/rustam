@@ -1,0 +1,132 @@
+h1{
+    background-color: rgb(171, 230, 230);
+    border-radius:5% 5% 0% 0%;
+    margin-top:0%;
+    margin-bottom: 2px;
+    height: 10%;
+    font-style: italic;
+    font-size: clamp(10px,12vw,55px);
+}
+h3{
+    margin-top: 2px;
+    font-size: clamp(15px,3.5vw,25px);
+}
+.x{
+    font-size:  clamp(15px,3vw,25px);
+}
+#name{
+    background-color: rgb(255, 255, 255);
+     height: clamp(12px,3.4vw,22px);
+     width: clamp(120px,18ch,220px);
+    font-size: clamp(5px,3vw,22px);
+}
+#mob{
+    background-color: rgb(255, 255, 255);
+     height: clamp(12px,3.4vw,22px);
+     width:  clamp(120px,18ch,220px);
+    font-size: clamp(12px,3vw,25px);
+    margin-top: 1px;
+}
+#cont1{
+    display: flex;
+    justify-content: end;
+    margin-bottom: 1.5%;
+    border-bottom: 1px solid rgb(158, 150, 150);
+}
+#additem{
+    background-color: rgb(129, 124, 153);
+    display: inline-block;
+    color: white;
+    height: 3ch;
+    width: 4ch;
+    @media print{
+        display: none;
+    }
+}
+#gross{
+    background-color: rgb(165, 211, 244);
+    height:40px;
+    font-size: 150%;
+    height:clamp(15px,7vw,35px);
+    font-size:clamp(15px,6vw,30px);
+    display: flex;
+    justify-content:space-between;
+
+}
+span{
+    border:3px solid rgb(0, 0, 0);
+    border-radius:21% 0% 21%  0%;
+    height:1l;
+}
+#t1{
+    font-size:clamp(10px,3vw,20px);
+    width: 37%;
+}
+#t2{
+    font-size:clamp(10px,3vw,20px);
+    width: 21%;
+}
+#t3{
+    font-size:clamp(10px,3vw,20px);
+    width: 21%;
+}
+#t4{
+    font-size:clamp(10px,3vw,20px);
+    width: 20%;
+}
+.name{
+    width:90%;
+    text-align: center;
+    margin-right:1px;
+    height: clamp(12px,4vw,20px);
+    font-size: clamp(8px,2.6vw,17px);
+}
+.quantity{
+    width:75%;
+    text-align: center;
+    margin-left: 1px;
+    margin-right: 1px;
+    height: clamp(12px,4vw,20px);
+    font-size: clamp(12px,3vw,18px);
+}
+.price{
+    width:75%;
+    text-align: center;
+    margin-left: 1px;
+    height: clamp(12px,4vw,20px);
+    font-size: clamp(12px,3vw,18px);
+}
+.total{
+    text-align: center;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: white;
+    height:clamp(12px,4vw,20px);
+    font-size: clamp(12px,3vw,18px);
+}
+p{
+    font-size: clamp(3px,3vw,20px);
+    margin-bottom: 0%;
+}
+body{
+    border: 8px double rgb(0, 0, 0);
+    border-radius: 3% 3% 5% 5%;
+}
+#cont{
+    max-width: 420px;
+    background-color: #e1f3f8;
+    border-radius:4%;
+    
+}
+html{
+    display: flex;
+    justify-content: center;
+}
+#print{
+    background-color: #d5dbdd;
+    @media print{
+        display: none;
+    }
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
