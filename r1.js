@@ -37,10 +37,11 @@ s2.addEventListener("input,()=>{
       let gvn=Number(s2.value);
       let lft=calc()-gvn;
       s3.innerText=lft;
-}
+});
 print.addEventListener("click",()=>{
     window.print();
 });
+
 
 
 
