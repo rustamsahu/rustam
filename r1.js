@@ -20,7 +20,7 @@ btn.addEventListener("click",()=>{
      ttl.innerText=sum;
      calc(); 
     });
-})
+});
 function calc(){
     let x=document.querySelectorAll("#tbody tr");
     let y=0;
@@ -31,7 +31,7 @@ function calc(){
     gamnt.innerText=y;
     return y;
 }
-s2.addEventListener("input,()=>{
+s2.addEventListener("input",()=>{
       let w=gamnt.getBoundinClientRect().width;
       s2.style.width=w+"px";
       let gvn=Number(s2.value);
@@ -41,6 +41,7 @@ s2.addEventListener("input,()=>{
 print.addEventListener("click",()=>{
     window.print();
 });
+
 
 
 
