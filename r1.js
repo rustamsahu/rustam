@@ -32,7 +32,7 @@ function calc(){
     return y;
 }
 s2.addEventListener("input,()=>{
-      let w=s1.getBoundinClientRect().width;
+      let w=gamnt.getBoundinClientRect().width;
       s2.style.width=w+"px";
       let gvn=Number(s2.value);
       let lft=calc()-gvn;
@@ -41,6 +41,7 @@ s2.addEventListener("input,()=>{
 print.addEventListener("click",()=>{
     window.print();
 });
+
 
 
 
