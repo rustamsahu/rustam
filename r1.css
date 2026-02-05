@@ -43,7 +43,7 @@ h3{
         display: none;
     }
 }
-#gross{
+#gross,#given,#left{
     background-color: rgb(165, 211, 244);
     height:40px;
     font-size: 150%;
@@ -53,7 +53,7 @@ h3{
     justify-content:space-between;
 
 }
-span{
+#s1,#s2,#s3{
     border:3px solid rgb(0, 0, 0);
     border-radius:21% 0% 21%  0%;
     height:1l;
@@ -129,4 +129,5 @@ html{
     position: absolute;
     top: 0%;
     right: 0%;
+
 }
