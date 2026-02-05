@@ -1,8 +1,8 @@
 let btn=document.querySelector("#additem");
 let tbody=document.querySelector("#tbody");
 let gamnt=document.querySelector("#s1");
-let given=document.querySelector("#given");
-let left=document.querySelector("#left");
+let given=document.querySelector("#s2");
+let left=document.querySelector("#s3");
 let print=document.querySelector("#print");
 let qun,prc,tp;
 btn.addEventListener("click",()=>{
@@ -36,10 +36,13 @@ function calc(){
     gamnt.innerText=y;
     return y;
 }
-given.addEventListener("input,()=>{
+s2.addEventListener("input,()=>{
+      let w=s1.getBoundinClientRect().width;
+      s2.style.width=w+"px";
       let gvn=Number(given.value);
       let lft=calc()-gvn;
-      left.innerText=lft;
+      s3.innerText=lft;
+
 }
 
 
@@ -53,3 +56,4 @@ print.addEventListener("click",()=>{
     window.print();
 
 });
+
