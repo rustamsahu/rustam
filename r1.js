@@ -4,7 +4,6 @@ let gamnt=document.querySelector("#s1");
 let s2=document.querySelector("#s2");
 let s3=document.querySelector("#s3");
 let print=document.querySelector("#print");
-let qun,prc,tp;
 btn.addEventListener("click",()=>{
     let row=document.createElement("tr");
     row.innerHTML=`
@@ -42,6 +41,7 @@ s2.addEventListener("input,()=>{
 print.addEventListener("click",()=>{
     window.print();
 });
+
 
 
 
