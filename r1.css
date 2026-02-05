@@ -47,7 +47,7 @@ h3{
     background-color: rgb(165, 211, 244);
     font-size: 150%;
     height:clamp(15px,7vw,35px);
-    font-size:clamp(15px,6vw,30px);
+    font-size:clamp(15px,5vw,30px);
     display: flex;
     justify-content:space-between;
 
@@ -135,6 +135,7 @@ html{
     right: 0%;
 
 }
+
 
 
 
