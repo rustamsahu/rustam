@@ -1,6 +1,8 @@
 let btn=document.querySelector("#additem");
 let tbody=document.querySelector("#tbody");
-let gamnt=document.querySelector("span");
+let gamnt=document.querySelector("#s1");
+let given=document.querySelector("#given");
+let left=document.querySelector("#left");
 let print=document.querySelector("#print");
 let qun,prc,tp;
 btn.addEventListener("click",()=>{
@@ -20,6 +22,10 @@ btn.addEventListener("click",()=>{
      calc(); 
     });
 })
+
+
+
+
 function calc(){
     let x=document.querySelectorAll("#tbody tr");
     let y=0;
@@ -28,7 +34,22 @@ function calc(){
           y+=z;
     });
     gamnt.innerText=y;
+    return y;
 }
+given.addEventListener("input,()=>{
+      let gvn=Number(given.value);
+      let lft=calc()-gvn;
+      left.innerText=lft;
+}
+
+
+
+
+
+
+
+
 print.addEventListener("click",()=>{
     window.print();
+
 });
