@@ -46,8 +46,8 @@ h3{
 #gross,#given,#left{
     background-color: rgb(165, 211, 244);
     font-size: 150%;
-    height:clamp(15px,7vw,35px);
-    font-size:clamp(15px,5vw,30px);
+    height:clamp(15px,6vw,35px);
+    font-size:clamp(15px,4.5vw,30px);
     display: flex;
     justify-content:space-between;
 
@@ -61,6 +61,7 @@ h3{
 #s2{
     display:inline-block;
     width:4ch;
+    font-size:clamp(15px,4.5vw,30px);
 }
 #t1{
     font-size:clamp(10px,3vw,20px);
@@ -135,6 +136,7 @@ html{
     right: 0%;
 
 }
+
 
 
 
