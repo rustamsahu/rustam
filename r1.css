@@ -45,7 +45,6 @@ h3{
 }
 #gross,#given,#left{
     background-color: rgb(165, 211, 244);
-    height:40px;
     font-size: 150%;
     height:clamp(15px,7vw,35px);
     font-size:clamp(15px,6vw,30px);
@@ -131,3 +130,4 @@ html{
     right: 0%;
 
 }
+
