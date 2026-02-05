@@ -53,9 +53,13 @@ h3{
 
 }
 #s1,#s2,#s3{
+    background-color:rgb(165,211,244);
     border:3px solid rgb(0, 0, 0);
     border-radius:21% 0% 21%  0%;
     height:1l;
+}
+#s2{
+    display:inline;
 }
 #t1{
     font-size:clamp(10px,3vw,20px);
@@ -130,4 +134,5 @@ html{
     right: 0%;
 
 }
+
 
