@@ -126,6 +126,7 @@ body{
     max-width: 420px;
     background-color: #e1f3f8;
     border-radius:4%;
+    
 }
 html{
     display: flex;
@@ -140,6 +141,7 @@ html{
     top: 0%;
     right: 0%;
 }
+
 
 
 
