@@ -65,7 +65,7 @@ h3{
 #s2{
     display:inline-block;
     width:4ch;
-    font-size:clamp(15px,4.5vw,30px);
+    font-size:clamp(15px,4vw,30px);
 }
 #s1,#s2{
     border:1px solid black;
@@ -143,6 +143,3 @@ html{
         display: none;
     }
 }
-
-
-
