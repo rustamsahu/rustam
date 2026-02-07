@@ -45,13 +45,15 @@ h3{
 }
 #gross,#given,#left{
     background-color: rgb(165, 211, 244);
-    font-size: 150%;
      margin-top:0px;
     margin-bottom:0px;
     height:clamp(15px,6vw,35px);
     font-size:clamp(15px,4.5vw,30px);
     display: flex;
     justify-content:space-between;
+}
+#gross,#given{
+    font-size:clamp(15px,3.8vw,30px);
 }
 #s1,#s2,#s3{
     background-color:rgb(165,211,244);
@@ -143,3 +145,4 @@ html{
         display: none;
     }
 }
+
