@@ -133,10 +133,13 @@ html{
 }
 #print{
     background-color: #d5dbdd;
-    @media print{
-        display: none;
-    }
     position: absolute;
     top: 0%;
     right: 0%;
 }
+   @media print{
+        #print{
+        display: none;
+    }
+    }
+
